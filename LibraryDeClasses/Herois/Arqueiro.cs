@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryDeClasses.Herois
 {
-    public class Arqueiro : Personagens
+    public class Arqueiro : Herois
     {
         public Arqueiro() : base("Arqueiro", 10, 4, 3, 6, 5, 2)
         {

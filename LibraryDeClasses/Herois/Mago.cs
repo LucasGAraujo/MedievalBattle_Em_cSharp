@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryDeClasses.Herois
 {
-    public class Mago : Personagens
+    public class Mago : Herois
     {
         public Mago() : base("Mago", 8, 2, 3, 6, 6, 2)
         {

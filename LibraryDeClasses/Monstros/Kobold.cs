@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryDeClasses.Monstros
 {
-    public class Kobold : Personagens
+    public class Kobold : Monstros
     {
         public Kobold() : base("Kobold", 20, 4, 2, 4, 2, 3)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryDeClasses.Monstros
 {
-    public class Zumbi : Personagens
+    public class Zumbi : Monstros
     {
         public Zumbi() : base("Zumbi", 27, 2, 2, 1, 4, 2)
         {

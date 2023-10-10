@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibraryDeClasses
+namespace LibraryDeClasses.Herois
 {
-    public class Personagens
+    public class Herois 
     {
         public string Tipo { get; set; }
         public int PontoDeVida { get; set; }
@@ -17,7 +17,7 @@ namespace LibraryDeClasses
         public int QuantdeJogada { get; set; }
 
 
-        public Personagens(string tipo, int pontoDeVida, int ataque, int defesa, int agilidade, int quantidadeLadoDado, int quantidadeJogada)
+        public Herois(string tipo, int pontoDeVida, int ataque, int defesa, int agilidade, int quantidadeLadoDado, int quantidadeJogada)
         {
             this.Tipo = tipo;
             this.PontoDeVida = pontoDeVida;
@@ -27,6 +27,8 @@ namespace LibraryDeClasses
             this.QuantdeLadoDado = quantidadeLadoDado;
             this.QuantdeJogada = quantidadeJogada;
         }
+
+
 
     }
 }

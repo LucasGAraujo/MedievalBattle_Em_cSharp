@@ -1,18 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LibraryDeClasses
+﻿namespace LibraryDeClasses
 {
-    public  class Jogador
+    public class Jogador
     {
         public String NickName { get; set; }
-        public Personagens Heroi { get; set; }
+        public Herois.Herois Heroi { get; set; }
         public int Xp { get; set; }
         public int Nivel { get; set; }
 
+        public Jogador(String NickName, Herois.Herois heroi)
+        {
+            this.NickName = NickName;
+            this.Heroi = heroi;
+        }
         public void GanharXP(int quantidadeXP)
         {
             Xp += quantidadeXP;
@@ -23,4 +22,6 @@ namespace LibraryDeClasses
                 Xp = 0;
             }
         }
-}
+        }
+    }
+
